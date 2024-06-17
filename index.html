@@ -46,12 +46,6 @@
             .student_logo {
             display: none;
             }
-            .std_profile {
-            text-align: center;
-            }
-            .std_profile img {
-            margin-bottom: 10px;
-            }
             .hostler {
             font-size: 60px;
             color: black;
@@ -1258,200 +1252,8 @@
         </style>
         <style>.cke{visibility:hidden;}</style>
     </head>
-    <body style="" class="">
+    <body class="">
         <div id="wrapper">
-            <!-- sider bar -->
-            <div class="sidebar-bg"></div>
-            <div class="sidebar menuSec">
-                <div class="logo-details">
-                    <span class="logo_name">
-                    <img src="https://cdn.gitam.edu/images/logo/cats-logo-white.png" alt="CATS-logo">
-                    </span>
-                </div>
-                <h5 class="nav-heading d-none d-lg-block"></h5>
-                <div class="std_profile">
-                    <div class="d-flex">
-                        <img src="https://doeresults.gitam.edu/photo/img.aspx?id=2023007928" alt="" class="profilepic">
-                        <a title="Hostler"><span class="hostler">H</span></a>
-                        <span></span>
-                    </div>
-                    <div>
-                        <span class="userName text-center">SAI RISHI AKUNDI </span><br>
-                        <span class="status text-center">
-                        (2023007928)
-                        </span>
-                        <span class="status text-center subscript">
-                        Hostler
-                        </span>
-                    </div>
-                </div>
-                <div class="scrollbar scrollbarAll">
-                    <ul class="nav-links ">
-                        <li>
-                            <a class="dashboard" href="javascript:void(0);" onclick="loadConfigView('30');">
-                            <i class="bx bx-grid-alt"></i>
-                            <span class="link_name">My dashboard</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dashboard1" href="javascript:void(0);" onclick="loadConfigView('111');">
-                            <i class="bx bx-bell"></i>
-                            <span> What's <img src="/images/new.gif" class="newGifIcon"></span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="Profile" href="javascript:void(0);" onclick="loadConfigView('1');">
-                            <i class="bx bx-user"></i>
-                            <span class="link_name">Profile</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="Permissions active" href="javascript:void(0);" onclick="loadConfigView('6');">
-                            <i class="ri-file-history-line"></i>
-                            <span class="link_name">Permissions &amp; Leaves</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="Residence" href="javascript:void(0);" onclick="loadConfigView('24');">
-                            <i class="bx bx-building-house"></i>
-                            <span class="link_name">Residence</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="Dining" href="javascript:void(0);" onclick="loadConfigView('25');">
-                            <i class="bx bx-bowl-hot"></i>
-                            <span class="link_name">Dining</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="Attendance" href="javascript:void(0);" onclick="loadConfigView('2');">
-                            <i class="bx bx-check-square"></i>
-                            <span class="link_name">Attendance</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="Time" href="javascript:void(0);" onclick="loadConfigView('27');">
-                            <i class="ri-table-line"></i>
-                            <span class="link_name">Time table</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="lms" href="javascript:void(0);" onclick="loadConfigView('67');">
-                            <i class="ri-book-read-line"></i>
-                            <span class="link_name">Courses (G-Learn)</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="Course" href="javascript:void(0);" onclick="loadConfigView('3');">
-                            <i class="ri-file-copy-2-line"></i>
-                            <span class="link_name">Course structure</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="Scholarship" href="javascript:void(0);" onclick="loadConfigView('4');">
-                            <i class="bx bxs-graduation"></i>
-                            <span class="link_name">Scholarship</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="Academic" href="javascript:void(0);" onclick="loadConfigView('13');">
-                            <i class="ri-line-chart-line"></i>
-                            <span class="link_name">Academic track</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="GradeOnlie" href="javascript:void(0);" onclick="loadConfigView('60');">
-                            <i class="ri-file-chart-line"></i>
-                            <span class="link_name">Online grade card</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="fee" href="javascript:void(0);" onclick="loadConfigView('33');">
-                            <i class="ri-currency-line"></i>
-                            <span class="link_name">Fees</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="exams" onclick="GetExamination('2023007928')" href="#">
-                            <i class="ri-file-list-2-line"></i>
-                            <span class="link_name">Apply for Examinations</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="certificate" onclick="GetCertificate('2023007928')" href="#">
-                            <i class="ri-file-list-2-line"></i>
-                            <span class="link_name">Apply for Certificate</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="Admsn" href="javascript:void(0);" onclick="loadConfigView('34');">
-                            <i class="ri-contacts-book-2-line"></i>
-                            <span class="link_name">Admission</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="feedback" href="javascript:void(0);" onclick="loadConfigView('37');">
-                            <i class="bx bx-message-rounded-dots"></i>
-                            <span class="link_name">Feedback</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="Notice" href="javascript:void(0);" onclick="loadConfigView('7');">
-                            <i class="bx bx-chalkboard"></i>
-                            <span class="link_name">Notice board</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="Displinary" href="javascript:void(0);" onclick="loadConfigView('28');">
-                            <i class="bx bx-shield-alt-2"></i>
-                            <span class="link_name">Student disciplinary info</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="contact" href="javascript:void(0);" onclick="loadConfigView('31');">
-                            <i class="bx bxs-user-account"></i>
-                            <span class="link_name">Mentor details</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="hallticket" href="javascript:void(0);" onclick="loadConfigView('45');">
-                            <i class="ri-article-line"></i>
-                            <span class="link_name">Hall ticket</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="accreditations" href="javascript:void(0);" onclick="loadConfigView('15');">
-                            <i class="ri-award-fill"></i>
-                            <span class="link_name">Circulars / Notifications</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="events" href="javascript:void(0);" onclick="loadConfigView('38');">
-                            <i class="bx bx-news"></i>
-                            <span class="link_name">News &amp; Events</span>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a class="mac_details" href="javascript:void(0);" onclick="loadConfigView('69');">
-                            <i class="bx bx-wifi-off"></i>
-                            <span class="link_name">Internet access</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="gevents" href="javascript:void(0);" onclick="loadConfigView('66');">
-                            <i class="bx bx-calendar"></i>
-                            <span class="link_name">Events</span>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a class="bellcats" href="javascript:void(0);" onclick="loadConfigView('72');">
-                            <i class="bx bx-bell"></i>
-                            <span class="link_name">Bell the cats</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
             <!-- main content -->
             <section class="home-section" style="background: inherit;">
                 <!-- header -->
@@ -3573,14 +3375,6 @@
                         $('.sub-menu-wrap.open-menu').removeClass('open-menu');
                     })
                     // sidebar - bg
-                    $('.sidebar ul li').click(function () {
-                        var width = $(window).width();
-                        //alert(width);
-                        if (width <= "992") {
-                            $('.sidebar.close').removeClass('close');
-                            $('.sidebar-bg.close').removeClass('close');
-                        }
-                    })
                     $(document).ready(function () {
                         var width = $(window).width();
                         if (width <= "1024") {
@@ -3694,13 +3488,6 @@
                 </script>
             </section>
         </div>
-        <svg id="SvgjsSvg1001" width="2" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" style="overflow: hidden; top: -100%; left: -100%; position: absolute; opacity: 0;">
-            <defs id="SvgjsDefs1002"></defs>
-            <polyline id="SvgjsPolyline1003" points="0,0"></polyline>
-            <path id="SvgjsPath1004" d="M0 0 "></path>
-        </svg>
-        <div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div>
-
         <script>
           document.querySelectorAll("#as_date").forEach((e) => {
             e.innerHTML = "LMAOLMAO"
