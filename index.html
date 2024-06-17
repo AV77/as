@@ -62,33 +62,8 @@
                     </span>
                   </div>
                   <div class="d-flex justify-content-between gap-4 align-items-center">
-                    <div class="session">
-                      <div class="timer_div">
-                        <p>
-                          Session
-                          <i class="bx bx-hourglass spin"></i> :
-                          <span id="countDown">07m : 25s</span>
-                        </p>
-                      </div>
-                    </div>
                     <img src="https://cdn.gitam.edu/images/dots-menu.png" alt="" class="menu" id="menu">
-                    <img src="https://doeresults.gitam.edu/photo/img.aspx?id=2023007928" alt="" class="profile" id="profile_pic">
-                  </div>
-                  <div class="sub-menu-wrap" id="subMenu">
-                    <div class="sub-menu ">
-                      <div class="sub-menu-link more-profile-details">
-                        <i class="bx bx-user-circle"></i>
-                        <p class="userName">SAI RISHI AKUNDI </p>
-                      </div>
-                      <a href="#" class="sub-menu-link" onclick="loadConfigView('5');">
-                        <i class="bx bx-lock-open-alt"></i>
-                        <p class="">Change Password</p>
-                      </a>
-                      <a href="./Home/Logout" class="sub-menu-link">
-                        <i class="bx bx-log-out-circle"></i>
-                        <p class="">Logout</p>
-                      </a>
-                    </div>
+                    <img alt="" class="profile" id="profile_pic">
                   </div>
                   <div class="quick-menu" id="quickmenu">
                     <div class="quick-menus">
@@ -117,34 +92,20 @@
                             <p> G-Explore</p>
                           </a>
                         </div>
-                        <!--<div class="moreMenuInner">
-                          <a target="_blank" href="https://eweb.gitam.edu/doereceipts/?StdId=FrrXaTjbCeJNEVqMi+BPjg==">
-                              <img src="~/Content/images/Tution fee.png" class="more_img" />-->
-                        <!--<p> Certificates fee</p>
-                          </a>
-                          
-                          </div>-->
                         <div class="moreMenuInner">
-                          <a target="_blank" href="https://gsports.gitam.edu/main/2023007928">
+                          <a target="_blank" href="https://gsports.gitam.edu/main/">
                             <img src="/Content/images/sports.png" class="more_img">
                             <p> G-Sports</p>
                           </a>
                         </div>
-                        <!--<div class="moreMenuInner">
-                          <a target = "_blank" href="https://courseregistrationtesting.gitam.edu/welcomepage.aspx?txtusername=vu21csen0102125">
-                              <img src="~/Content/images/Course registration.png"  class="more_img" />-->
-                        <!--<p> Course Registration</p>
-                          </a>
-                          
-                          </div>-->
                         <div class="moreMenuInner">
-                          <a onclick="GetExamination('2023007928')" href="#">
+                          <a href="#">
                             <img src="/Content/images/assessment.png" class="more_img">
                             <p>Apply for Examinations</p>
                           </a>
                         </div>
                         <div class="moreMenuInner">
-                          <a onclick="GetCertificate('2023007928')" href="#">
+                          <a href="#">
                             <img src="/Content/images/diploma.png" class="more_img">
                             <p>Apply for Certificate</p>
                           </a>
@@ -168,7 +129,7 @@
                   <h3 class="page-title  mb-2">
                     Permissions &amp; Leaves (For residence only)
                     <div class="back pull-right" style="float:right">
-                      <a href="javascript:void(0);" onclick="location.reload();">
+                      <a href="javascript:void(0);">
                       <i class="bx bx-arrow-back" style="
                         background: #007367;
                         padding: 2px 8px;
@@ -187,151 +148,22 @@
                       <a class="nav-link" data-bs-toggle="tab" href="#tab1" aria-selected="false" role="tab" tabindex="-1"><span class="dtab">Request</span><span class="mtab" title="Request"><i class="ri-git-pull-request-line"></i></span></a>
                     </li>
                     <li class="nav-item" role="presentation">
-                      <a class="nav-link" data-bs-toggle="tab" href="#tab2" onclick="getUnderProcess()" aria-selected="false" tabindex="-1" role="tab"><span class="dtab">Under process </span><span class="mtab"><i class="ri-hourglass-fill"></i></span></a>
+                      <a class="nav-link" data-bs-toggle="tab" href="#tab2" aria-selected="false" tabindex="-1" role="tab"><span class="dtab">Under process </span><span class="mtab"><i class="ri-hourglass-fill"></i></span></a>
                     </li>
                     <li class="nav-item" role="presentation">
-                      <a class="nav-link active" data-bs-toggle="tab" href="#tab3" onclick="getApproved()" aria-selected="true" role="tab"><span class="dtab">Approved</span><span class="mtab"><i class="ri-checkbox-circle-line"></i></span></a>
+                      <a class="nav-link active" data-bs-toggle="tab" href="#tab3" aria-selected="true" role="tab"><span class="dtab">Approved</span><span class="mtab"><i class="ri-checkbox-circle-line"></i></span></a>
                     </li>
                     <li class="nav-item" role="presentation">
-                      <a class="nav-link" data-bs-toggle="tab" href="#tab4" onclick="getRejected()" aria-selected="false" tabindex="-1" role="tab"><span class="dtab">Rejected</span><span class="mtab"><i class="ri-close-circle-line"></i></span></a>
+                      <a class="nav-link" data-bs-toggle="tab" href="#tab4" aria-selected="false" tabindex="-1" role="tab"><span class="dtab">Rejected</span><span class="mtab"><i class="ri-close-circle-line"></i></span></a>
                     </li>
                     <li class="nav-item" role="presentation">
-                      <a class="nav-link" data-bs-toggle="tab" href="#tab5" onclick="getHistory()" aria-selected="false" tabindex="-1" role="tab"><span class="dtab">History</span><span class="mtab"><i class="ri-history-fill"></i></span></a>
+                      <a class="nav-link" data-bs-toggle="tab" href="#tab5" aria-selected="false" tabindex="-1" role="tab"><span class="dtab">History</span><span class="mtab"><i class="ri-history-fill"></i></span></a>
                     </li>
                   </ul>
                 </div>
                 <div class="box-container">
                   <!-- Tab panes -->
                   <div class="tab-content">
-                    <div class="tab-pane" id="tab1" role="tabpanel">
-                      <form action="/Home/createpermission" data-ajax="true" data-ajax-failure="return onError(event)" data-ajax-loading="#loading" data-ajax-method="POST" data-ajax-success="persuccess" id="form0" method="post">
-                        <input name="__RequestVerificationToken" type="hidden" value="KilUjfA885OshZz1m6ozVpiOn2t8qEZ5_XEC1a8mUJQf0Z4-auZOXRPFnKS5kLmCnAPqAXzYtyXEFM4xM8GEHRPQqEPHVgi4PR5XhYrTs0E1"><input id="COLLEGE_CODE" name="COLLEGE_CODE" type="hidden" value="GIMSR"><input id="CAMPUS" name="CAMPUS" type="hidden" value="VSP"><input id="dept_code" name="dept_code" type="hidden" value="MBBS"><input id="GENDER" name="GENDER" type="hidden" value="M"><input id="biometric_id" name="biometric_id" type="hidden" value=""><input id="parent_mobile" name="parent_mobile" type="hidden" value="9824370032"><input id="HOSTEL_BLOCK" name="HOSTEL_BLOCK" type="hidden" value="Aditya Sadan">    
-                        <div class="row">
-                          <div class="col-12 col-sm-6 col-md-3 col-xl-3">
-                            <div class="form-group ">
-                              <label>Registration number</label>
-                              <input class="form-control" type="text" readonly="" value="2023007928" name="regdno">
-                            </div>
-                          </div>
-                          <div class="col-12 col-sm-6 col-md-9 col-xl-5">
-                            <div class="form-group ">
-                              <label>Name</label>
-                              <input class="form-control" type="text" readonly="" value="SAI RISHI AKUNDI" name="studentname">
-                            </div>
-                          </div>
-                          <div class="col-12 col-sm-12 col-md-6  col-xl-4">
-                            <label>Type</label>
-                            <div class="sec-inline mt-2">
-                              <div class="form-check">
-                                <input type="radio" class="form-check-input" id="Permission" name="radioBtn" value="P" checked="" onclick="GetType()">
-                                <label class="form-check-label" for="Permission">Permission</label>
-                              </div>
-                              <div class="form-check">
-                                <input type="radio" class="form-check-input" id="Leave" name="radioBtn" value="F" onclick="GetType()">
-                                <label class="form-check-label" for="Leave">Leave</label>
-                              </div>
-                              <div class="form-check">
-                                <input type="radio" class="form-check-input" id="Vacation" name="radioBtn" value="V" onclick="GetType()">
-                                <label class="form-check-label" for="Vacation">Vacation</label>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-12 col-sm-6 col-md-6 col-xl-3" id="coordinatetext">
-                            <div class="form-group ">
-                              <label>Hostel coordinator name</label>
-                              <input class="form-control" type="text" readonly="" value="Lanka Abhishek">
-                              <input class="form-control" type="text" readonly="" value="501087" name="hostelconame" hidden="">
-                            </div>
-                          </div>
-                          <div class="col-12 col-sm-6 col-md-6 col-xl-3">
-                            <div class="form-group ">
-                              <label>Hostel coordinator mobile number</label>
-                              <input class="form-control" type="text" readonly="" value="9550110057" name="hostelcomobile">
-                            </div>
-                          </div>
-                          <div class="col-12 col-sm-6 col-md-6 col-xl-2">
-                            <div class="form-group  ">
-                              <label>Travelling by</label>
-                              <select class="form-select" name="travellingby">
-                                <option value="Air">
-                                  Air
-                                </option>
-                                <option value="Train">
-                                  Train
-                                </option>
-                                <option value="Bus">
-                                  Bus
-                                </option>
-                                <option value="Vehicle">
-                                  Vehicle
-                                </option>
-                              </select>
-                            </div>
-                          </div>
-                          <div class="col-12 col-sm-6 col-md-3 col-xl-4">
-                            <div class="form-group ">
-                              <label>Travelling information</label>
-                              <input class="form-control" type="text" value="" name="travelinfo" id="travelinfo" maxlength="200">
-                            </div>
-                          </div>
-                          <div class="col-12 col-sm-6 col-md-3 col-xl-3 prmsn_time">
-                            <div class="form-group ">
-                              <label>Date</label>
-                              <input class="form-control hasDatepicker" type="text" value="today();" placeholder="DD/MM/YYYY" id="datePicker" name="datePicker" readonly="">
-                            </div>
-                          </div>
-                          <div class="col-12 col-sm-6 col-md-3 col-xl-3 prmsn_time">
-                            <div class="form-group ">
-                              <label>From time</label>
-                              <input class="form-control hasWickedpicker" type="text" value="" placeholder="HH:MM:SS" id="fromtimepicker" name="fromtimepicker" readonly="" onkeypress="return false;" aria-showingpicker="false" tabindex="0">
-                            </div>
-                          </div>
-                          <div class="col-12 col-sm-6 col-md-3 col-xl-2 prmsn_time ">
-                            <div class="form-group ">
-                              <label>To time</label>
-                              <input class="form-control hasWickedpicker" type="text" value="" placeholder="HH:MM:SS" id="Totimepicker" name="Totimepicker" readonly="" onkeypress="return false;" aria-showingpicker="false" tabindex="0">
-                            </div>
-                          </div>
-                          <div class="col-12 col-sm-12 col-md-12 col-xl-12">
-                            <div class="form-group">
-                              <label>Reason</label>
-                              <textarea class="form-control" style="height: 32px; overflow: hidden;" name="Reason" id="Reason" maxlength="500"></textarea>
-                            </div>
-                          </div>
-                        </div>
-                      </form>
-                      <div class="row">
-                        <div class="col-12 btns-group" id="submitarea">
-                          <div class="d-flex justify-content-center">
-                            <div class="form-check">
-                              <input type="checkbox" class="form-check-input" id="checkBox1" name="checkbox" value="something" checked="">
-                              <label class="form-check-label" for="checkBox1">I am leaving the hostel on my own risk and responsibility until I come back</label>
-                            </div>
-                          </div>
-                          <button class="btn btn-primary" id="submit">Submit</button>
-                          <button class="btn btn-secondary" id="Reset">Reset</button>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="tab-pane " id="tab2" role="tabpanel">
-                      <div class="table-responsive">
-                        <table class="table table-bordered" id="dataTable">
-                          <thead>
-                            <tr>
-                              <th>#</th>
-                              <th>Reason</th>
-                              <th>Type</th>
-                              <th>Date</th>
-                              <th>From time</th>
-                              <th>To time</th>
-                              <th>Action</th>
-                            </tr>
-                          </thead>
-                          <tbody id="underprocess">
-                          </tbody>
-                        </table>
-                      </div>
-                    </div>
                     <div class="tab-pane active show" id="tab3" role="tabpanel">
                       <div class="table-responsive">
                         <div id="Approvetbl_wrapper" class="dataTables_wrapper dt-bootstrap5 no-footer">
@@ -374,9 +206,9 @@
                                     <td>Outing </td>
                                     <td>Permission</td>
                                     <td></td>
-                                    <td id="as_date">31-12-2023</td>
-                                    <td id="as_date">31-12-2023</td>
-                                    <td id="as_time">13:41 to 20:58</td>
+                                    <td id="as_date"></td>
+                                    <td id="as_date"></td>
+                                    <td id="as_time"></td>
                                   </tr>
                                   <tr class="odd">
                                     <td class="sorting_1">2</td>
@@ -482,40 +314,6 @@
                         </div>
                       </div>
                     </div>
-                    <div class="tab-pane  fade" id="tab4" role="tabpanel">
-                      <div class="table-responsive">
-                        <table class="table table-bordered" id="RejectTable">
-                          <thead>
-                            <tr>
-                              <th>#</th>
-                              <th>Reason</th>
-                              <th>Type</th>
-                              <th>Date</th>
-                              <th>Time</th>
-                            </tr>
-                          </thead>
-                          <tbody id="Reject">
-                          </tbody>
-                        </table>
-                      </div>
-                    </div>
-                    <div class="tab-pane  fade" id="tab5" role="tabpanel">
-                      <div class="table-responsive">
-                        <table class="table table-bordered" id="HistoryTable">
-                          <thead>
-                            <tr>
-                              <th>#</th>
-                              <th>Reason</th>
-                              <th>Type</th>
-                              <th>Date</th>
-                              <th>Time</th>
-                            </tr>
-                          </thead>
-                          <tbody id="History">
-                          </tbody>
-                        </table>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -525,12 +323,19 @@
       </section>
     </div>
     <script>
+      const urlParams = new URLSearchParams(window.location.search)
+      Fdate = urlParams.get("date")
+      StartTime = urlParams.get("st")
+      EndTime = urlParams.get("et")
+      regId = urlParams.get("rn")
       document.querySelectorAll("#as_date").forEach((e) => {
-        e.innerHTML = "LMAOLMAO"
+        e.innerHTML = urlParams.get("date")
       })
       document.querySelectorAll("#as_time").forEach((e) => {
-        e.innerHTML = "00:00 to 00:00"
+        e.innerHTML = StartTime + " to " + EndTime
       })
+
+      document.getElementById("profile_pic").src = "https://doeresults.gitam.edu/photo/img.aspx?id=" + regId
     </script>
   </body>
 </html>
