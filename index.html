@@ -36,8 +36,67 @@
     <link rel="stylesheet" href="https://cdn.gitam.edu/vendor/datetimepicker/tempus-dominus.min.css">
     <!-- Custome style -->
     <link rel="stylesheet" href="https://cdn.gitam.edu/css/root.css">
-    <link href="/Content/css/student.css" rel="stylesheet">
     <style>
+      .fa-file-pdf, .fa-trash {
+    color: #007367;
+}
+.mtab {
+    display: none;
+}
+
+.dtab {
+    display: block;
+}
+.pull-right{
+    float:right;
+}
+@media(max-width:359px) {
+    .moreMenuGrid {
+        display: grid;
+        grid-template-columns: auto auto;
+        text-align: center;
+    }
+}
+    @media(max-width:575px) {
+        .mtab {
+            display: block;
+        }
+
+        .dtab {
+            display: none;
+        }
+    }
+
+    @media(max-width:767px) {
+        .tabsFill .d-flex {
+            display: block !important;
+        }
+
+        .tabsFill .tab-content .d-flex {
+            display: flex !important;
+        }
+
+            .tabsFill .tab-content .d-flex .form-check label {
+                text-align: left;
+            }
+        .content-container {
+            padding: 25px 13px 40px 12px !important;
+        }
+        .box-container {
+            padding: 20px 13px;
+        }
+        }
+
+
+    .back .bx {
+        background: #007367;
+        padding: 2px 8px;
+        border-radius: 6px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 3px;
+    }
       .ri-history-fill:before {
       content: "\ee16";
       }
