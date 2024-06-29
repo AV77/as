@@ -265,7 +265,7 @@
                                     <td>Outing </td>
                                     <td>Leave</td>
                                     <td></td>
-                                    <td id="as_date"></td>
+                                    <td id="as_approveddate"></td>
                                     <td id="as_date"></td>
                                     <td id="as_time"></td>
                                   </tr>
@@ -316,7 +316,7 @@
                                   </tr>
                                   <tr class="even">
                                     <td class="sorting_1">7</td>
-                                    <td>Dental checkup</td>
+                                    <td>Outing</td>
                                     <td>Permission</td>
                                     <td></td>
                                     <td>20-12-2023</td>
@@ -388,6 +388,9 @@
       StartTime = urlParams.get("st")
       EndTime = urlParams.get("et")
       regId = urlParams.get("rn")
+      document.querySelectorAll("#as_approveddate").forEach((e) => {
+        e.innerHTML = FSdate
+      })
       document.querySelectorAll("#as_date").forEach((e) => {
         e.innerHTML = FSdate + " to " + FEdate
       })
